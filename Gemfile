@@ -14,6 +14,8 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.3.4'
 gem "paperclip", "~> 4.2"
 gem 'google-webfonts-rails'
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :production do 
 	gem 'pg'
