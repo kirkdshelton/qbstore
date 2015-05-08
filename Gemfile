@@ -17,6 +17,7 @@ gem 'google-webfonts-rails'
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem 'devise'
+gem 'masonry-rails'
 
 group :production do 
 	gem 'pg'
