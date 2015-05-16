@@ -89,11 +89,24 @@ p {
 }
 
 body div.container {
-margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
+.thumbnail {
+  padding: 0;
+  border: 0;
+  margin-bottom: 0;
+}
 
+.price {
+  color: rgb(65, 152, 65) !important;  
+}
 
+.thumb_c {
+  padding: 10px;
+}
 
-
-
+.listed-by {
+  color: grey !important;
+  font-size: 12px !important;
+}
