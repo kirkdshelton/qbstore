@@ -1,23 +1,26 @@
+
+
 <div class="center">
   <div class="row">
-    
+  <div class="row" id="masonry"> 
   <% @listings.each do |listing| %>
-
-    <div class="col-md-3">
+    <div class="col-md-3 thumb_c">
       <div class="thumbnail">
         <%= link_to image_tag(listing.image.url), listing %>
           <div class="caption">
           <h4><%= listing.name %></h4>
-          <p><%= number_to_currency(listing.price) %></p>
-          <p><%= "Listed by #{listing.user.name}" %></p>
+          <p class="type-info listed-by"><%= "Listed by #{listing.user.name}" %></p>
+          <p class="text-right price"><%= number_to_currency(listing.price) %></p>
+          <p></p>
         </div>
         </div>
       </div>
     <% end %>
   </div>
 </div>
-
+</div>
 <br>
 <% if user_signed_in? %>
-  <%= link_to "New Listing", new_listing_path, class: "btn btn-primary", data: { no_turbolink: true } %>
+  <%= link_to "New Listing", new_listing_path, class: "btn btn-smooth", data: { no_turbolink: true } %>
 <% end %>
+
