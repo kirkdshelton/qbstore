@@ -3,37 +3,37 @@
 body {
   height: 100%;
   height: auto;
-	background-color:#f5f5f1;
-	color:#333333;
-	font-family: 'Oswald', sans-serif;
+  background-color:#f5f5f1;
+  color:#333333;
+  font-family: 'Oswald', sans-serif;
 }
 
 .navbar-default {
-	background-color: #000000;
-	color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	color: #d4b854;
-	font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #d4b854;
+  font-size: 30px;
 
 }
 
 .navbar-default .navbar-nav > li > a {
-	font-family: 'Oswald', sans-serif;
-	font-size: 14px;
-	color: #8cacb1;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  color: #8cacb1;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 
 .col-md-3:nth-child(4n+1){
-	clear: left;
+  clear: left;
 }
 
 .col-md-6{
@@ -43,15 +43,15 @@ body {
 }
 
 .caption {
-	h3 {
+  h3 {
      font-size: 17px;
      margin: 2px;
-	}
+  }
 
 p {
      font-size: 15px;
      margin:0px;
-	}
+  }
 }
 
 .btn-smooth{
@@ -61,12 +61,18 @@ p {
 }
 
 .alert-smooth {
-	color: #ffffff; 
+  color: #ffffff; 
   background-color: #8CACB1; 
   border-color: #8CACB1; 
 }
 
+.panel-smooth{
+  font-family: 'Oswald', sans-serif;
+  color:#000000;
+}
+
 .panel-smooth .panel-heading {
+  font-family: 'Oswald', sans-serif;
   background-color:#8cacb1;
   color:#000000;
 }
@@ -76,6 +82,7 @@ p {
 .footer {
     width:100%;
     height:auto;
+    font-family: 'Oswald', sans-serif;
     color:#d4b854;
     background-color:#000;
     background-attachment: scroll;
@@ -116,7 +123,3 @@ thumbnail {
     color: #d4b854;
     text-shadow: black 0.2em 0.2em 0.2em;
 }
-
-
-
-
